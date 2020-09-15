@@ -1,0 +1,16 @@
+{
+    "db_choice": "mssql",
+    "db_engine": "pymssql",
+    "db_host": "192.168.1.106",
+    "db_port": "1433",
+    "db_account": "twodept",
+    "db_password": "twodept",
+    "db_name": "socail",
+    "db_charset": "utf8",
+    
+    "db_get_all_tables": "select * from sysobjects where type='u'",
+    
+    "elasticsearch_host": "10.18.15.9",
+    "elasticsearch_index": "socail_se",
+    "elasticsearch_type": "socail_base_se"
+}
